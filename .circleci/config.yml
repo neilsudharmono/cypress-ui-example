@@ -23,4 +23,5 @@ jobs:
           paths:
             - ~/.npm
             - ~/.cache
+      - run: npm install -D cypress-plugin-tab
       - run: $(npm bin)/cypress run --record --key a7533173-bd57-461d-9b33-0fbc64b92e82
