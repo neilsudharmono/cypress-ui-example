@@ -18,7 +18,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on, config)
     },
-    baseUrl: 'https://dashboard-staging.xendit.co',
+    baseUrl: 'https://dashboard-staging.co',
     excludeSpecPattern: ['*.hot-update.js', '*.method.js'],
     experimentalSessionAndOrigin: true
   },
